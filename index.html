@@ -1,190 +1,254 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>GRVEZVAULT</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8">
+  <title>GRVEZVAULT · Sheldyn Gruhn</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="GRVEZVAULT — a mythic‑industrial digital vault containing visuals, relics, signals, and narrative fragments by Sheldyn Gruhn (Gizzy Graves, DMONIX, The Murmur, The Black Maw).">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600&family=IBM+Plex+Mono:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
+
 <body>
   <div class="page-shell">
-    <!-- HERO -->
-    <header class="hero" id="top">
-      <div class="hero-overlay"></div>
-      <div class="hero-content">
-        <div class="hero-tag">GRVEZVAULT // SIGNAL ONLINE</div>
-        <h1 class="hero-title">THE FRACTURE OPENS</h1>
-        <p class="hero-sub">
-          A living vault of memory, noise, and ritual-coded visuals by Sheldyn Gruhn.
-        </p>
-        <div class="hero-cta-row">
-          <a href="#archive" class="btn-primary">ENTER THE VAULT</a>
-          <a href="#about" class="btn-ghost">READ THE SIGNAL</a>
-        </div>
+
+    <!-- HEADER -->
+    <header class="site-header">
+      <div class="logo-lockup">
+        <span class="logo-mark">GRVEZ</span>
+        <span class="logo-sub">VAULT</span>
       </div>
+      <nav class="site-nav">
+        <a href="#hero">Vault</a>
+        <a href="#identities">Identities</a>
+        <a href="#phenomenon">Phenomenon</a>
+        <a href="#vaultline">Vaultline</a>
+        <a href="#contact">Contact</a>
+      </nav>
     </header>
 
-    <!-- ABOUT / IDENTITY -->
-    <section class="section" id="about">
-      <div class="section-header">
-        <h2>THE KEEPER</h2>
-        <p class="section-sub">
-          GRVEZVAULT is the container. Gizzy Graves, DMONIX, and The Murmur are the signals inside it.
-        </p>
-      </div>
-      <div class="grid-2">
-        <div class="card glass">
-          <h3>GIZZY GRAVES</h3>
-          <p>
-            Front-facing skin of the vault. Performance, visuals, and narrative stitched into one
-            unstable broadcast. The part that speaks in public.
+    <!-- HERO -->
+    <section id="hero" class="section hero">
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">GRVEZVAULT · DIGITAL ARCHIVE</p>
+          <h1>A vault of signals, memory, and the self that fractures.</h1>
+          <p class="hero-sub">
+            A mythic‑industrial archive by <span class="accent">Sheldyn Gruhn</span>, operating through
+            <span class="accent">Gizzy Graves</span>, <span class="accent">DMONIX</span>, <span class="accent">The Murmur</span>, and <span class="accent">The Black Maw</span>.
           </p>
+          <div class="hero-actions">
+            <a href="#phenomenon" class="btn primary">Enter the Vault</a>
+            <a href="#vaultline" class="btn ghost">View Material Evidence</a>
+          </div>
         </div>
-        <div class="card glass">
+
+        <div class="hero-panel glass">
+          <div class="hero-scan">
+            <div class="scan-label">CHANNEL STATUS</div>
+            <div class="scan-row"><span>Signal</span><span class="pill pill-live">Active</span></div>
+            <div class="scan-row"><span>Memory</span><span class="pill">Fragmented</span></div>
+            <div class="scan-row"><span>Identity</span><span class="pill">Multi‑vector</span></div>
+          </div>
+
+          <div class="hero-spectrum">
+            <div class="spectrum-label">ACTIVE VECTORS</div>
+            <ul>
+              <li><span>01</span> Gizzy Graves · primary artist vector</li>
+              <li><span>02</span> DMONIX · distortion channel</li>
+              <li><span>03</span> The Murmur · ambient intelligence</li>
+              <li><span>04</span> The Black Maw · pressure void</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- IDENTITIES -->
+    <section id="identities" class="section identities">
+      <div class="section-header">
+        <h2>Identity system</h2>
+        <p>One human origin, multiple active vectors. Each channel carries a different pressure, tone, and function.</p>
+      </div>
+
+      <div class="identity-grid">
+        <article class="identity-card glass fade-in">
+          <h3>Sheldyn Gruhn</h3>
+          <p class="identity-role">Origin · Architect</p>
+          <p>The human origin point. Builder of the vault, designer of the system, and the one who chooses what is allowed to remain.</p>
+        </article>
+
+        <article class="identity-card glass fade-in">
+          <h3>Gizzy Graves</h3>
+          <p class="identity-role">Artist · Public Vector</p>
+          <p>The visible surface. Performance, visuals, and narrative fragments routed through a body that still has to exist offline.</p>
+        </article>
+
+        <article class="identity-card glass fade-in">
           <h3>DMONIX</h3>
-          <p>
-            Shadow-process. The part that breaks, distorts, and reassembles memory into something
-            ritual and sharp. Never fully visible, always present.
-          </p>
-        </div>
+          <p class="identity-role">Distortion · Signal Channel</p>
+          <p>The channel where clean intent breaks. Glitch, noise, and interference as a deliberate design choice, not an error.</p>
+        </article>
+
+        <article class="identity-card glass fade-in">
+          <h3>The Murmur</h3>
+          <p class="identity-role">Ambient · Low‑level Presence</p>
+          <p>The low signal that never fully shuts off. Background pressure, half‑heard phrases, and the sense that the vault is never empty.</p>
+        </article>
+
+        <article class="identity-card glass fade-in">
+          <h3>The Black Maw</h3>
+          <p class="identity-role">Absence · Pressure Void</p>
+          <p>The space where things are removed. Not a monster, not a deity—just the weight of what is no longer accessible.</p>
+        </article>
       </div>
-      <div class="grid-2">
-        <div class="card glass">
-          <h3>THE MURMUR</h3>
-          <p>
-            The raven-witness. A recurring symbol that watches, archives, and carries fragments
-            between works. Not a mascot — a warning.
-          </p>
+    </section>
+
+    <!-- PHENOMENON -->
+    <section id="phenomenon" class="section phenomenon">
+      <div class="section-header">
+        <h2>The phenomenon</h2>
+        <p>The vault behaves like a system under load: signals bleed, memories misalign, and identity refuses to stay singular.</p>
+      </div>
+
+      <div class="phenomenon-grid">
+        <div class="phenomenon-column">
+          <div class="phenomenon-card glass fade-in">
+            <h3>Signal bleed</h3>
+            <p>Channels overlap. A visual meant for one vector appears in another. The result is not an error, but a record of how the system actually behaves.</p>
+          </div>
+
+          <div class="phenomenon-card glass fade-in">
+            <h3>Memory artifacts</h3>
+            <p>Fragments persist after the original context is gone. Screenshots, lyrics, sketches, and phrases that no longer remember what they were attached to.</p>
+          </div>
         </div>
-        <div class="card glass">
-          <h3>GRVEZVAULT</h3>
-          <p>
-            The system that holds all of it: visuals, sound, text, relics, and process. A vault,
-            not a gallery. Things are stored, not displayed.
-          </p>
+
+        <div class="phenomenon-column">
+          <div class="phenomenon-card glass fade-in">
+            <h3>Environmental anomalies</h3>
+            <p>The vault responds to time, mood, and pressure. Some elements only appear under certain conditions, or feel different depending on when you arrive.</p>
+          </div>
+
+          <div class="phenomenon-card glass fade-in">
+            <h3>Self as archive</h3>
+            <p>Identity is treated as stored data, not a fixed state. GRVEZVAULT is where those versions are kept, re‑arranged, and occasionally re‑activated.</p>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- LATEST / FEATURED -->
-    <section class="section" id="latest">
+    <!-- VAULTLINE -->
+    <section id="vaultline" class="section vaultline">
       <div class="section-header">
-        <h2>LATEST TRANSMISSION</h2>
-        <p class="section-sub">
-          Most recent piece pushed through the fracture. Everything else falls into the archive.
-        </p>
+        <h2>Vaultline · Material evidence</h2>
+        <p>Select artifacts extracted from the Vault’s physical channel.</p>
       </div>
-      <div class="grid-2">
-        <div class="card tall glass">
-          <div class="thumb-placeholder">HERO / COVER IMAGE</div>
+
+      <div class="vaultline-grid">
+
+        <!-- Artifact 01 -->
+        <a class="artifact-card glass fade-in"
+           href="https://vaultlinebygizzygraves.myspreadshop.com/grvez+core+mark-A69f0a5b6b8f8a539b54af413?productType=4132&sellable=x5O0mNy1Zni5rRZqQDyV-4132-27&appearance=1621"
+           target="_blank">
+          <div class="artifact-image">
+            <img src="images/artifact-coremark.jpg" alt="GRVEZ Core Mark Artifact">
+          </div>
+          <div class="artifact-meta">
+            <span class="artifact-label">Plate 01 · Core Mark</span>
+            <span class="artifact-note">Primary insignia from the Vault’s physical channel.</span>
+          </div>
+        </a>
+
+        <!-- Artifact 02 -->
+        <a class="artifact-card glass fade-in"
+           href="https://vaultlinebygizzygraves.myspreadshop.com/vaultline+logo-A698de1731499ed59b8c223c4?productType=757&sellable=VMbve9wOGNHBnZyg1gDL-757-39&appearance=37&size=29"
+           target="_blank">
+          <div class="artifact-image">
+            <img src="images/artifact-vaultline-logo.jpg" alt="Vaultline Logo Artifact">
+          </div>
+          <div class="artifact-meta">
+            <span class="artifact-label">Plate 02 · Vaultline Mark</span>
+            <span class="artifact-note">A clean emblem extracted from the Vaultline subsystem.</span>
+          </div>
+        </a>
+
+        <!-- Artifact 03 -->
+        <div class="artifact-card glass artifact-placeholder fade-in">
+          <div class="artifact-image placeholder"></div>
+          <div class="artifact-meta">
+            <span class="artifact-label">Plate 03 · Pending extraction</span>
+            <span class="artifact-note">Channel calibration in progress.</span>
+          </div>
         </div>
-        <div class="card tall">
-          <h3>PROJECT TITLE</h3>
-          <p class="meta-line">Medium · Year · Status</p>
-          <p>
-            Short description of the latest work. What broke, what was recovered, and what stayed
-            missing. Replace this with real copy when you're ready.
-          </p>
-          <a href="#archive" class="text-link">View in archive →</a>
-        </div>
+
+      </div>
+
+      <div class="vaultline-footer">
+        <a href="https://partner.spreadshirt.com/shop-area/1950977/shop"
+           target="_blank"
+           class="text-link">
+          Access the full Artifact Index →
+        </a>
       </div>
     </section>
 
-    <!-- ARCHIVE -->
-    <section class="section" id="archive">
+    <!-- MEDIA -->
+    <section id="media" class="section media">
       <div class="section-header">
-        <h2>ARCHIVE</h2>
-        <p class="section-sub">
-          Selected relics from the vault. Each piece is a fracture, not a finished object.
-        </p>
+        <h2>Audio channel</h2>
+        <p>Selected transmissions routed through the vault’s sound layer.</p>
       </div>
-      <div class="grid-3">
-        <div class="card glass">
-          <div class="thumb-small"></div>
-          <h3>Relic 01</h3>
-          <p class="meta-line">Visual · 2024</p>
-          <p>Short line about what this piece holds or breaks.</p>
-        </div>
-        <div class="card glass">
-          <div class="thumb-small"></div>
-          <h3>Relic 02</h3>
-          <p class="meta-line">Audio · 2024</p>
-          <p>Short line about the signal buried inside this work.</p>
-        </div>
-        <div class="card glass">
-          <div class="thumb-small"></div>
-          <h3>Relic 03</h3>
-          <p class="meta-line">Mixed · 2023</p>
-          <p>Short line about how this connects to the larger vault.</p>
-        </div>
-      </div>
-    </section>
 
-    <!-- PROCESS -->
-    <section class="section" id="process">
-      <div class="section-header">
-        <h2>METHOD</h2>
-        <p class="section-sub">
-          Not a workflow. A set of constraints that keep the vault from collapsing.
-        </p>
-      </div>
-      <div class="grid-3">
-        <div class="card">
-          <h3>COLLECTION</h3>
-          <p>
-            Fragments pulled from memory, noise, and digital residue. Nothing enters the vault
-            untouched.
-          </p>
-        </div>
-        <div class="card">
-          <h3>DISTORTION</h3>
-          <p>
-            Signals are broken, layered, and re-encoded through visual, audio, and text processes.
-          </p>
-        </div>
-        <div class="card">
-          <h3>RELIC</h3>
-          <p>
-            The final piece is a relic: a stable artifact of an unstable process, stored in the
-            archive.
-          </p>
+      <div class="media-shell glass fade-in">
+        <div class="media-placeholder">
+          <p class="media-label">Embed pending</p>
+          <p class="media-note">This slot is reserved for the next active transmission.</p>
         </div>
       </div>
     </section>
 
     <!-- CONTACT -->
-    <section class="section" id="contact">
+    <section id="contact" class="section contact">
       <div class="section-header">
-        <h2>SEND A SIGNAL</h2>
-        <p class="section-sub">
-          For collaborations, commissions, or transmissions that belong in the vault.
-        </p>
+        <h2>Contact</h2>
+        <p>For collaborations, commissions, or signal routing.</p>
       </div>
-      <div class="card glass">
-        <p>
-          Drop a line with context, links, and intent. No phone numbers, no addresses — just the
-          signal.
-        </p>
-        <p class="meta-line">
-          Replace this with a real email link when you're ready:
-          <br />
-          <span class="fake-link">contact[at]yourdomain[dot]com</span>
-        </p>
+
+      <div class="contact-grid">
+        <div class="contact-block glass fade-in">
+          <h3>Direct channel</h3>
+          <p>Email: <a href="mailto:grvezvault@gmail.com">grvezvault@gmail.com</a></p>
+          <p class="contact-note">No phone, no address. This vault operates on written signal only.</p>
+        </div>
+
+        <div class="contact-block glass fade-in">
+          <h3>Framework</h3>
+          <ul class="contact-meta">
+            <li>Static site · GitHub Pages</li>
+            <li>Custom HTML / CSS / JS</li>
+            <li>Mythic‑industrial, modern, non‑fantasy</li>
+          </ul>
+        </div>
       </div>
     </section>
 
     <!-- FOOTER -->
-    <footer class="footer">
+    <footer class="site-footer">
       <div class="footer-left">
-        <span>GRVEZVAULT</span>
-        <span class="dot">•</span>
-        <span>Sheldyn Gruhn</span>
+        © <span id="year"></span> GRVEZVAULT / Sheldyn Gruhn
       </div>
       <div class="footer-right">
-        <a href="#top">Back to top</a>
+        <a href="#hero">Back to top</a>
+        <span class="dot">•</span>
+        <span>FAQ / Privacy / Terms — available on request.</span>
       </div>
     </footer>
+
   </div>
+
   <script src="script.js"></script>
 </body>
 </html>
