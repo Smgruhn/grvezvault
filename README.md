@@ -2,7 +2,7 @@
 
 **A living vault of memory, noise, and ritual-coded visuals by Sheldyn Gruhn.**
 
-GRVEZVAULT is a dark, immersive portfolio site showcasing artistic works as relics stored in a vault rather than displayed in a gallery. The design emphasizes fragmentation, distortion, and the coexistence of multiple signal channels: Gizzy Graves, DMONIX, and The Murmur.
+GRVEZ VAULT is a dark, immersive portfolio site showcasing artistic works as relics stored in a vault rather than displayed in a gallery. The design emphasizes fragmentation, distortion, and the coexistence of multiple signal channels: Gizzy Graves, DMONIX, and The Murmur.
 
 ---
 
