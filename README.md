@@ -1,4 +1,4 @@
-# GRVEZVAULT
+# GRVEZ VAULT
 
 **A living vault of memory, noise, and ritual-coded visuals by Sheldyn Gruhn.**
 
